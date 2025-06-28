@@ -1,8 +1,7 @@
 """
 Solution for Task X of the "Mission Space Lab" project,
 a project developed by the Raspberry Pi Foundation and ESA Education.
-This task and solution were created by Mikkel Amstrup Brandt Neiiendam,
-educator and certified ESA Education mentor.
+This task and solution were created by Mikkel Amstrup Brandt Neiiendam.
 
 Task Description:
 The program must:
@@ -90,8 +89,8 @@ def calculate_matches(descriptors1, descriptors2):
     return matches
 
 # Define file paths for the two images
-image1 = '/Users/mikkl/Desktop/Efterskole/i1gb2y/astropi-iss-speed-en-resources/photo_0677.jpg'
-image2 = '/Users/mikkl/Desktop/Efterskole/i1gb2y/astropi-iss-speed-en-resources/photo_0678.jpg'
+image1 = 'Path to image'
+image2 = 'Path to image'
 
 def display_matches(image1cv, keypoints1, image2cv, keypoints2, matches):
     """

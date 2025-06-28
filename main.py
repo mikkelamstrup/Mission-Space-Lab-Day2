@@ -1,8 +1,7 @@
 """
 Solution for Task X of the "Mission Space Lab" project,
 a project developed by the Raspberry Pi Foundation and ESA Education.
-This task and solution were created by Mikkel Amstrup Brandt Neiiendam,
-educator and certified ESA Education mentor.
+This task and solution were created by Mikkel Amstrup Brandt Neiiendam.
 
 Task Description:
 The program must:
@@ -132,8 +131,8 @@ def find_matching_coordinates(keypoints1, keypoints2, matches):
     return coordinates1, coordinates2
 
 # Define file paths for the images
-image1_path = '/Users/mikkl/Desktop/Efterskole/i1gb2y/astropi-iss-speed-en-resources/photo_0677.jpg'
-image2_path = '/Users/mikkl/Desktop/Efterskole/i1gb2y/astropi-iss-speed-en-resources/photo_0678.jpg'
+image1_path = 'Path to image'
+image2_path = 'Path to image'
 
 # Calculate the time difference (in seconds) between the two images using their EXIF data
 time_difference = get_time_difference(image1_path, image2_path)
@@ -177,7 +176,7 @@ formatted_speed = format(avg_speed_km_s, '.5g')
 
 # Write the result to "result.txt" with the formatted speed
 with open("result.txt", "w") as f:
-    f.write(f"Gennemsnitlig hastighed: {formatted_speed} km/s\n")
+    f.write(f"{formatted_speed} km/s")
 
 # Print the average speed to the console
 print(f"{formatted_speed} km/s")

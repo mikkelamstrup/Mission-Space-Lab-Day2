@@ -1,8 +1,7 @@
 """
 Solution for Task 3 of the "Mission Space Lab" project day 2,
 a project developed by the Raspberry Pi Foundation and ESA Education.
-This task and solution were created by Mikkel Amstrup Brandt Neiiendam,
-educator and certified ESA Education mentor.
+This task and solution were created by Mikkel Amstrup Brandt Neiiendam.
 
 Task Description:
 1. Extract the "datetime_original" EXIF tag from two image files.
@@ -34,11 +33,11 @@ def get_time(image):
 
 # Print the timestamp for the first image
 print("Tidspunkt for billede 1:")
-print(get_time('/Users/mikkel/desktop/efterskole/astropi-iss-speed-en-resources/photo_0677.jpg'))
+print(get_time('Path to image'))
 
 # Print the timestamp for the second image
 print("Tidspunkt for billede 2:")
-print(get_time('/Users/mikkel/desktop/efterskole/astropi-iss-speed-en-resources/photo_0678.jpg'))
+print(get_time('Path to image'))
 
 def get_time_difference(image1, image2):
     """
@@ -61,6 +60,6 @@ def get_time_difference(image1, image2):
 
 # Calculate and print the time difference between the two specified images
 get_time_difference(
-    '/Users/mikkel/desktop/efterskole/astropi-iss-speed-en-resources/photo_0677.jpg',
-    '/Users/mikkel/desktop/efterskole/astropi-iss-speed-en-resources/photo_0678.jpg'
+    'Path to image',
+    'Path to image'
 )

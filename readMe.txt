@@ -5,7 +5,7 @@ This repository contains solutions to tasks for the "Mission Space Lab" project,
 and ESA Education. These tasks focus on working with image metadata (EXIF), time data, feature detection and matching using 
 OpenCV, and performing calculations such as time differences and average speed based on image data.
 
-The tasks and solutions were created by Mikkel Amstrup Brandt Neiiendam, educator and certified ESA Education mentor.
+The tasks and solutions were created by Mikkel Amstrup Brandt Neiiendam.
 
 ---
 
